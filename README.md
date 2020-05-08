@@ -1,2 +1,2 @@
-# revision-junkies
+# Revision Junkies
  Matches students with study techniques that suit their personality types (https://revisionjunkies.com).
