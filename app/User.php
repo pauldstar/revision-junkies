@@ -36,4 +36,19 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function educationLevel()
+    {
+        return $this->belongsTo(EducationLevel::class);
+    }
+
+    public function boards()
+    {
+        return $this->hasMany(Board::class);
+    }
+
+    public function tips()
+    {
+        return $this->hasMany(Tip::class);
+    }
 }
