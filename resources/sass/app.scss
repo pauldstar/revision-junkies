@@ -1,1 +1,10 @@
-//
+@import "./abstract/abstract";
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap-vue/src/index.scss';
+@import '../../node_modules/node-waves/src/scss/waves.scss';
+
+@import "./base/base";
+@import "./layout/layout";
+@import "./components/component";
+@import "./pages/pages";
