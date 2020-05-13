@@ -1,5 +1,5 @@
 <template>
-    <div class="section-padding" id="portfoliow">
+    <div class="section-padding" id="portfolio">
         <div class="container">
             <div class="row py-lg-5 justify-content-center">
                 <div class="col-xl-7">

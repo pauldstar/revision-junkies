@@ -3,35 +3,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <nav class="navbar navbar-expand-lg navbar-light px-0">
-                        <router-link to="/" class="navbar-brand"><img src="/images/w_logo.png" alt="">
+                    <b-navbar toggleable="lg">
+                        <b-navbar-brand href="#">
+                            <img src="https://quixlab.com/demo/elaenia_vue/images/w_logo.png" alt="">
                             <span>Elaenia</span>
-                        </router-link>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        </b-navbar-brand>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul v-if="isLanding" class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#market" data-scroll-nav="1">Market</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#portfolio" data-scroll-nav="2">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#testimonial" data-scroll-nav="3">Testimonial</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact" data-scroll-nav="4">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+                        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+                        <b-collapse v-if="isLanding"  id="nav-collapse" is-nav>
+                            <b-navbar-nav>
+                                <b-nav-item href="#intro">Home</b-nav-item>
+                                <b-nav-item href="#market">Market</b-nav-item>
+                                <b-nav-item href="#portfolio">Portfolio</b-nav-item>
+                                <b-nav-item href="#testimonial">Testimonial</b-nav-item>
+                                <b-nav-item href="#contact">Contact</b-nav-item>
+                            </b-navbar-nav>
+                        </b-collapse>
+
                         <div class="dashboard_log">
                             <div class="d-flex align-items-center">
                                 <div class="header_auth">
@@ -40,7 +29,7 @@
                                 </div>
                             </div>
                         </div>
-                    </nav>
+                    </b-navbar>
                 </div>
             </div>
         </div>
