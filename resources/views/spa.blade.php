@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>StudyTipz</title>
-    <link rel="icon" type="image/ico" sizes="16x16" href="favicon.ico">
+    <title>Studytipz</title>
+    <link rel="icon" type="image/ico" sizes="16x16" href="{{ asset('favicon.ico') }}">
 
     <link rel="stylesheet" href="{{ asset('css/cryptocoins.css') }}">
     <link rel="stylesheet" href="{{ asset('css/cryptocoins-colors.css') }}">

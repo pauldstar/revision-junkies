@@ -13,14 +13,10 @@
         background: #342C58;
         padding: 10px 0px;
     }
-    
     .navbar-brand {
         margin-right: 30px;
         display: flex;
         align-items: center;
-        img {
-            max-width: 35px;
-        }
         @include respond('tab-land') {
             margin-right: 30px;
         }
@@ -36,7 +32,7 @@
         background: $primary;
         transition: all 0.3s ease-in;
     }
-    
+
 }
 
 .header_auth {

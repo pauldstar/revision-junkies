@@ -2,7 +2,7 @@
 $enable-deprecation-messages: false;
 $ignore-warning             : true;
 // Body
-$body-bg   : #3A3361;
+$body-bg   : #F1F1F7;
 $body-color: #8C87C2;
 // Typography
 $font-family-base       : 'Biko';
@@ -51,7 +51,7 @@ $ebony-clay: #232833;
 $colors    : () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors      : map-merge(("blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray": $gray-600, "gray-dark": $gray-800), $colors);
-$primary     : #7B6FFF !default;
+$primary     : #006b4f !default;
 $secondary   : #673BB7 !default;
 $success     : #77C454 !default;
 $info        : #50E3C2 !default;
