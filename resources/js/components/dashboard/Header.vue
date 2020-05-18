@@ -4,8 +4,10 @@
             <div class="row">
                 <div class="col-xl-12">
                     <nav class="navbar navbar-expand-lg navbar-light px-0 justify-content-between">
-                        <router-link  to="/dashboard" class="navbar-brand"><img src="/images/w_logo.png" alt="">
-                            <span>Elaenia</span></router-link>
+                        <router-link  to="/dashboard" class="navbar-brand">
+                            <img id="dashboard-logo-sm" src="/images/logo/sm-green.png" width="35px" alt="">
+                            <img id="dashboard-logo-lg" src="/images/logo/lg-green.png" width="140px" alt="">
+                        </router-link>
                         <div class="dashboard_log my-2">
                             <div class="d-flex align-items-center">
                                 <div class="account_money">
