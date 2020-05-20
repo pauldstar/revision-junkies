@@ -3,15 +3,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12">
-                    <nav class="navbar navbar-expand-lg navbar-light px-0 justify-content-between">
-                        <router-link  to="/dashboard" class="navbar-brand">
-                            <img id="dashboard-logo-sm" src="/images/logo/sm-green.png" width="35px" alt="">
-                            <img id="dashboard-logo-lg" src="/images/logo/lg-green.png" width="140px" alt="">
-                        </router-link>
+                    <nav class="navbar navbar-expand-lg px-0 justify-content-between">
+                        <logo :responsive="true"/>
+
                         <div class="dashboard_log my-2">
                             <div class="d-flex align-items-center">
 
-                                <div class="account_money">
+                                <div class="account_money d-none d-sm-block">
                                     <ul class="d-flex">
                                         <li class="crypto">
                                             <span>0.0025</span>
@@ -61,7 +59,11 @@
 </template>
 
 <script>
+    import Logo from "@app/components/Logo";
+
     export default {
+        components: {Logo},
+
         data() {
             return {
                 show: false
