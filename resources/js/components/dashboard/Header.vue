@@ -10,6 +10,7 @@
                         </router-link>
                         <div class="dashboard_log my-2">
                             <div class="d-flex align-items-center">
+
                                 <div class="account_money">
                                     <ul class="d-flex">
                                         <li class="crypto">
@@ -21,6 +22,7 @@
                                         </li>
                                     </ul>
                                 </div>
+
                                 <div class="profile_log dropdown">
                                     <div class="user" @click="show = !show">
                                         <span class="thumb"><i class="la la-user"></i></span>
