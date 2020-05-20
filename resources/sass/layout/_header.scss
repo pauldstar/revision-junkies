@@ -4,10 +4,11 @@
     top: 0;
     left: 75px;
     right: 0;
+    height: 78px;
     z-index: 999;
     transition: all 0.3s ease-in;
     background: $body-bg;
-    border-bottom: 1px solid $gray-500;
+    border-bottom: 1px solid $gray-300;
     &.landing_page {
         left: 0;
         background: #342C58;
@@ -20,19 +21,12 @@
         @include respond('tab-land') {
             margin-right: 30px;
         }
-        span {
-            color: $white;
-            font-weight: 700;
-            margin-left: 20px;
-            font-size: 24px;
-        }
     }
     &.fixed {
         position: fixed;
         background: $primary;
         transition: all 0.3s ease-in;
     }
-
 }
 
 .header_auth {
@@ -78,45 +72,11 @@
                 opacity: 1;
             }
         }
-        // &.active {
-        //     .nav-link {
-        //         color: $white !important;
-        //         @include respond('tab-port') {
-        //             color: $white !important;
-        //         }
-        //     }
-        // }
     }
 }
 
-.dashboard_log {
-    @include respond('tab-port') {
-        position: absolute;
-        right: 0px;
-        top: 15px;
-        margin: 0px !important;
-    }
-}
-
-#dashboard-logo-lg {
-    display: none;
-}
-
-@include media-breakpoint-up(md) {
-    #dashboard-logo-sm {
-        display: none;
-    }
-    #dashboard-logo-lg {
-        display: block;
-    }
-}
-
-// .dashboard_log {}
 .account_money {
     margin-right: 20px;
-    @include respond('phone-land') {
-        display: none;
-    }
     ul {
         li {
             display: inline;
@@ -175,7 +135,6 @@
             border-radius: 50px;
             border: 1px solid rgba(255, 255, 255, 0.08);
             display: inline-block;
-            margin-right: 15px;
             background: $gray-700;
             color: $white;
             text-align: center;
@@ -185,7 +144,6 @@
             }
         }
         .name {
-            margin-right: 30px;
             font-size: 18px;
             font-weight: 500;
             color: $body-color;
@@ -197,7 +155,7 @@
             }
         }
         .arrow {
-            color: $white;
+            color: $gray-700;
             i {
                 font-weight: bold;
                 font-size: 16px;
