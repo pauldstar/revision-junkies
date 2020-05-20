@@ -42,7 +42,7 @@
 
         methods: {
             setTitle() {
-                document.title = this.title ? 'Elaenia ~ ' + this.title : 'Elaenia';
+                document.title = this.title ? 'Studytipz ~ ' + this.title : 'Studytipz';
             },
 
             initWaves() {

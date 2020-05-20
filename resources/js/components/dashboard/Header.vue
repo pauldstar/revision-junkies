@@ -24,8 +24,8 @@
                                 <div class="profile_log dropdown">
                                     <div class="user" @click="show = !show">
                                         <span class="thumb"><i class="la la-user"></i></span>
-                                        <span class="name">Maria Pascle</span>
-                                        <span class="arrow"><i class="la la-angle-down"></i></span>
+                                        <span class="name ml-2">Maria Pascle</span>
+                                        <span class="arrow ml-2"><i class="la la-angle-down"></i></span>
                                     </div>
                                     <div
                                         class="dropdown-menu dropdown-menu-right"
