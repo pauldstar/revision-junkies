@@ -316,17 +316,6 @@
                 </div>
             </div>
         </div>
-        <b-toast id="my-toast" variant="warning" toaster="b-toaster-top-center" solid>
-            <template v-slot:toast-title>
-                <div class="d-flex flex-grow-1 align-items-baseline">
-                    <b-img blank blank-color="#ff5555" class="mr-2" width="12" height="12"></b-img>
-                    <strong class="mr-auto">Complete your payment!</strong>
-                    <small class="text-muted mr-2">42 seconds ago</small>
-                </div>
-            </template>
-            Complete your payment to make it easier to exchange.
-            It is short and to the point.
-        </b-toast>
     </content-body>
 </template>
 
@@ -355,7 +344,6 @@
         },
 
         mounted() {
-            this.$bvToast.show('my-toast');
             this.initTimelineChart();
             this.initCurrencyChart('#btcChart');
             this.initCurrencyChart('#ltcChart');
