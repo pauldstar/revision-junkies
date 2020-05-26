@@ -1,5 +1,7 @@
 <template>
     <div class="sidebar">
+        <create-tip-button placement="bottom" class="d-none d-sm-block"/>
+
         <div class="menu">
             <ul>
                 <li>
@@ -26,3 +28,11 @@
         </div>
     </div>
 </template>
+
+<script>
+    import CreateTipButton from '@app/components/dashboard/CreateTipButton';
+
+    export default {
+        components: {CreateTipButton}
+    }
+</script>
