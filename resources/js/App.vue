@@ -15,8 +15,6 @@
 </template>
 
 <script>
-    import Waves from 'node-waves';
-
     export default {
         data() {
             return {
@@ -27,7 +25,6 @@
 
         mounted() {
             this.isLoading = false;
-            this.initWaves();
         },
 
         updated() {
@@ -43,14 +40,7 @@
         methods: {
             setTitle() {
                 document.title = this.title ? 'Studytipz ~ ' + this.title : 'Studytipz';
-            },
-
-            initWaves() {
-                Waves.init();
-                Waves.attach('.wave-effect');
-                Waves.attach('.btn');
-                Waves.attach('button');
-            },
+            }
         }
     }
 </script>
