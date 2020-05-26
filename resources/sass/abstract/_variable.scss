@@ -51,10 +51,10 @@ $ebony-clay: #232833;
 $colors    : () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors      : map-merge(("blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray": $gray-600, "gray-dark": $gray-800), $colors);
-$primary     : #006b4f !default;
-$secondary   : #673BB7 !default;
+$primary     : #54adaa !default;
+$secondary   : #4a9290 !default;
 $success     : #77C454 !default;
-$info        : #50E3C2 !default;
+$info        : #63c7c4 !default;
 $warning     : #FE9431 !default;
 $danger      : #FF788E !default;
 $light       : #f8f9fa !default;

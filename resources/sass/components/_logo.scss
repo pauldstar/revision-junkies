@@ -1,0 +1,13 @@
+.logo {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 25px;
+  color: $gray-700;
+  font-weight: 900;
+}
+
+.reverse-text {
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}

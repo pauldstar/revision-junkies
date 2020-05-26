@@ -1,17 +1,17 @@
 .hex-btn {
     height: 79px;
-    width: 75px;
+    width: 85px;
 }
 
 .hex-btn:hover .hex {
-    background-color: $teal;
+    background-color: $info;
 }
 
 .hex {
-    background: $primary;
+    background: $secondary;
     width: 60px;
     height: 34.5px;
-    left: 7px;
+    left: 12px;
     top: 21px;
     border-radius: 3px;
 }
@@ -36,6 +36,6 @@
     position: absolute;
     color: $body-bg;
     font-size: 38px;
-    left: 20px;
+    left: 25px;
     top: 19px;
 }
