@@ -11,8 +11,19 @@ const mix = require('laravel-mix');
  |
  */
 
+let extractables = [
+    'vue',
+    'bootstrap-vue',
+    'portal-vue',
+    'vue-carousel',
+    'vue-router',
+    'vuelidate'
+];
+
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
+    .extract(extractables)
+    .sourceMaps()
     .webpackConfig({
         resolve: {
             alias: {
@@ -20,3 +31,11 @@ mix.js('resources/js/app.js', 'public/js')
             }
         }
     });
+
+mix.browserSync({
+    proxy: 'localhost'
+});
+
+if (mix.inProduction()) {
+    mix.version();
+}
