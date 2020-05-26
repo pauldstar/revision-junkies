@@ -1,36 +1,50 @@
 .sidebar {
     background: #027b5b;
-    position  : fixed;
-    left      : 0;
-    height    : 100%;
-    width     : 75px;
+    position: fixed;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
 }
 
-
 .menu {
-    margin-top: 100px;
     ul {
         li {
             text-align: center;
+
             a {
                 padding: 12px 15px;
                 display: inline-block;
                 margin-bottom: 5px;
                 border-radius: 5px;
-                &:hover,&:focus,&.active{
-                    background: $primary;
+
+                &:hover, &:focus, &.active {
+                    background: $teal;
                 }
-                &.router-link-active{
+
+                &.router-link-active {
                     background: $primary;
+
                     i {
                         color: #fff;
                     }
                 }
+
                 i {
                     color: #ffffff;
                     font-size: 24px;
                 }
             }
         }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .sidebar {
+        left: 0;
+        height: 100%;
+        width: 75px;
+    }
+    .menu {
+        margin-top: 100px;
     }
 }

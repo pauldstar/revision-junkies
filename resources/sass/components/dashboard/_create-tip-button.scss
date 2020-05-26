@@ -1,0 +1,41 @@
+.hex-btn {
+    height: 79px;
+    width: 75px;
+}
+
+.hex-btn:hover .hex {
+    background-color: $teal;
+}
+
+.hex {
+    background: $primary;
+    width: 60px;
+    height: 34.5px;
+    left: 7px;
+    top: 21px;
+    border-radius: 3px;
+}
+
+.hex-1 {
+    position: absolute;
+}
+
+.hex-2 {
+    position: absolute;
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+}
+
+.hex-3 {
+    position: absolute;
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+}
+
+.hex-label {
+    position: absolute;
+    color: $body-bg;
+    font-size: 38px;
+    left: 20px;
+    top: 19px;
+}

@@ -1,0 +1,32 @@
+// dbh: dashboard header
+#searchbar-dbh {
+    height: 58px;
+    font-size: 28px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+#search-icon-dbh {
+    font-size: 22px;
+    border: 0;
+    color: $gray-500;
+    cursor: text;
+}
+
+#searchbar-dbh::-webkit-input-placeholder,
+#searchbar-dbh::-moz-placeholder,
+#searchbar-dbh:-ms-input-placeholder,
+#searchbar-dbh::-ms-input-placeholder,
+#searchbar-dbh::placeholder {
+}
+
+.placeholder-logo {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 22px;
+    color: $gray-500;
+    font-weight: 900;
+    top: 15px;
+    left: 15px;
+}

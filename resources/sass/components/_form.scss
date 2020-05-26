@@ -1,3 +1,17 @@
+.input-group.input-group-seamless-append {
+    > input {
+        width: 100%;
+        padding-right: 52px;
+    }
+    > .input-group-append {
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        bottom: 1px;
+        z-index: 4;
+    }
+}
+
 .form-group {
     margin-bottom: 30px;
     position     : relative;
