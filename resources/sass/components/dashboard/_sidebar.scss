@@ -1,12 +1,15 @@
-.sidebar {
+#sidebar {
     background: $primary;
     position: fixed;
     bottom: 0;
     height: 75px;
     width: 100%;
+    z-index: 1;
 }
 
-.menu {
+#sidebar__desktop {
+    padding-top: 11px;
+
     ul {
         li {
             text-align: center;
@@ -23,6 +26,7 @@
 
                 &.router-link-active {
                     background: $secondary;
+                    color: $primary;
 
                     i {
                         color: #fff;
@@ -38,13 +42,45 @@
     }
 }
 
+#sidebar__mobile {
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        min-width: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 23px;
+        color: #ffffff;
+
+        &.create-tip-button {
+            font-size: 43px;
+            color: #396f6e;
+
+            &.router-link-exact-active {
+                color: #ffffff;
+            }
+        }
+
+        &.router-link-exact-active {
+            background-color: $secondary;
+        }
+    }
+}
+
 @include media-breakpoint-up(sm) {
-    .sidebar {
+    #sidebar {
         left: 0;
         height: 100%;
         width: 85px;
     }
-    .menu {
-        margin-top: 100px;
+    #sidebar__desktop {
+        margin-top: 89px;
     }
 }

@@ -1,6 +1,6 @@
 <template>
-    <div class="page_title">
-        <div class="container-fluid">
+    <div class="page_title px-3">
+        <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="page_title-content">
