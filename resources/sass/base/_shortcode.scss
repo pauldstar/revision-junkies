@@ -27,40 +27,38 @@
 }
 
 .bg_icons {
-    display            : flex;
-    flex-wrap          : wrap;
-    position           : fixed;
-    overflow           : hidden;
-    z-index            : 0;
-    left               : 0;
-    right              : 0;
-    top                : 0;
-    bottom             : 0;
-    // background         : url('./../images/background/bg_icons.jpg');
-    background-size    : cover;
-    background-position: center;
-    background: rgba(58, 51, 97, 0.95);
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    overflow: hidden;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background: rgba(58, 51, 97, 0.95) center;
 }
 
 .page_title {
-    padding    : 15px 0px 15px;
-    position   : relative;
-    background : transparent;
-    margin-top : 80px;
+    padding: 15px 0px 15px;
+    position: relative;
+    background: transparent;
+    margin-top: 80px;
 
     p {
-        font-size    : 18px;
-        font-weight  : 500;
+        font-size: 18px;
+        font-weight: 500;
         margin-bottom: 0px;
-        color        : $primary;
+        color: $primary;
 
         // opacity: 0.6;
         span {
             line-height: 30px;
             font-weight: 500;
-            color      : $white;
+            color: $white;
             margin-left: 10px;
-            opacity    : 1;
+            opacity: 1;
         }
     }
 }
@@ -72,15 +70,15 @@
 }
 
 .breadcrumbs {
-    display        : flex;
+    display: flex;
     justify-content: flex-end;
 
     li {
         a {
-            color      : $text-muted;
-            display    : inline-block;
+            color: $text-muted;
+            display: inline-block;
             margin-left: 15px;
-            font-size  : 14px;
+            font-size: 14px;
         }
 
         &.active {
@@ -91,28 +89,24 @@
     }
 }
 
-
 // Scrollbar
 ::-webkit-scrollbar {
     width: 5px;
 }
 
-
 /* Track */
 
 ::-webkit-scrollbar-track {
-    box-shadow   : inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
-
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background   : #999;
+    background: #999;
     border-radius: 10px;
 }
-
 
 /* Handle on hover */
 
@@ -121,53 +115,53 @@
 }
 
 .section_heading {
-    position     : relative;
-    text-align   : center;
+    position: relative;
+    text-align: center;
     margin-bottom: 50px;
 
     h3 {
-        font-size    : 30px;
-        line-height  : 45px;
+        font-size: 30px;
+        line-height: 45px;
         margin-bottom: 10px;
-        color        : $headings-color;
-        font-weight  : 600;
+        color: $headings-color;
+        font-weight: 600;
 
         @include respond('tab-land') {
-            font-size  : 26px;
+            font-size: 26px;
             line-height: 40px;
         }
 
         @include respond('tab-port') {
-            font-size  : 24px;
+            font-size: 24px;
             line-height: 30px;
         }
     }
 
     span {
-        font-size    : 24px;
-        font-weight  : 500;
-        color        : $primary;
-        position     : relative;
+        font-size: 24px;
+        font-weight: 500;
+        color: $primary;
+        position: relative;
         margin-bottom: 30px;
-        display      : inline-block;
+        display: inline-block;
 
         &::after {
-            content   : '';
-            position  : absolute;
-            left      : 0;
-            right     : 0;
-            width     : 50px;
-            height    : 2px;
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 50px;
+            height: 2px;
             background: $primary;
-            bottom    : -15px;
-            margin    : 0 auto;
+            bottom: -15px;
+            margin: 0 auto;
         }
     }
 
     p {
         font-weight: normal;
-        font-size  : 18px;
+        font-size: 18px;
         line-height: 25px;
-        color      : $body-color;
+        color: $body-color;
     }
 }

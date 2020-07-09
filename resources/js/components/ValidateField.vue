@@ -14,7 +14,7 @@
                 :name="field"
                 :placeholder="placeholder"
                 rows="5"
-            ></textarea>
+            />
             <input
                 v-else
                 v-model.trim="validations.$model"
