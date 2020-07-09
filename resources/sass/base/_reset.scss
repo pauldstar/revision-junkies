@@ -1,10 +1,12 @@
 * {
     outline: none;
     padding: 0;
+
     &::after {
         margin: 0;
         padding: 0;
     }
+
     &::before {
         margin: 0;
         padding: 0;
@@ -19,6 +21,7 @@ body {
     // font-weight: 300;
     background: $body-bg;
     overflow-x: hidden;
+
     &.dashboard {
         &:before {
             content: "";
@@ -46,7 +49,7 @@ body {
     }
 }
 
-.content-body{
+.content-body {
     margin-left: 75px;
     margin-top: 15px;
 }
@@ -64,13 +67,13 @@ a {
     color: $body-color;
     text-decoration: none;
     outline: none;
+
     &:hover,
     &:focus,
     &.active,
     &.router-link-exact-active {
         text-decoration: none;
         outline: none;
-        color: $primary;
     }
 }
 
@@ -121,6 +124,3 @@ h6 {
 .container-fluid {
     max-width: 95%;
 }
-
-
-/* Editable */

@@ -1,8 +1,8 @@
 <template>
-    <div class="sidebar">
-        <create-tip-button placement="bottom" class="d-none d-sm-block"/>
+    <nav id="sidebar">
+        <create-tip-button class="d-none d-sm-block" placement="bottom"/>
 
-        <div class="menu">
+        <div id="sidebar__desktop" class="d-none d-sm-block">
             <ul>
                 <li>
                     <router-link to="/dashboard/home" v-b-tooltip.hover="{placement: 'right'}" title="Home">
@@ -14,19 +14,37 @@
                         <span><i class="la la-exchange-alt"></i></span>
                     </router-link>
                 </li>
+                <li class="col-4 col-sm-12">
+                    <router-link to="/dashboard/settings" v-b-tooltip.hover="{placement: 'right'}" title="Setting">
+                        <span><i class="la la-tools"></i></span>
+                    </router-link>
+                </li>
                 <li>
                     <router-link to="/dashboard/accounts" v-b-tooltip.hover="{placement: 'right'}" title="Account">
                         <span><i class="la la-user"></i></span>
                     </router-link>
                 </li>
-                <li>
-                    <router-link to="/dashboard/settings" v-b-tooltip.hover="{placement: 'right'}" title="Setting">
-                        <span><i class="la la-tools"></i></span>
-                    </router-link>
-                </li>
             </ul>
         </div>
-    </div>
+
+        <div id="sidebar__mobile" class="d-sm-none">
+                <router-link to="/dashboard/home" v-b-tooltip.hover="{placement: 'bottom'}" title="Home">
+                    <span><i class="la la-igloo"></i></span>
+                </router-link>
+                <router-link to="/dashboard/buy-sell" v-b-tooltip.hover="{placement: 'bottom'}" title="Exchange">
+                    <span><i class="la la-exchange-alt"></i></span>
+                </router-link>
+                <router-link to="/dashboard/create-tip" class="create-tip-button" v-b-tooltip.hover="{placement: 'bottom'}" title="Add Tip">
+                    <span><i class="la la-pencil-alt"></i></span>
+                </router-link>
+                <router-link to="/dashboard/settings" v-b-tooltip.hover="{placement: 'bottom'}" title="Setting">
+                    <span><i class="la la-tools"></i></span>
+                </router-link>
+                <router-link to="/dashboard/accounts" v-b-tooltip.hover="{placement: 'bottom'}" title="Account">
+                    <span><i class="la la-user"></i></span>
+                </router-link>
+        </div>
+    </nav>
 </template>
 
 <script>
