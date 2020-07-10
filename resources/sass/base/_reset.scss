@@ -42,8 +42,7 @@ body {
     overflow: hidden;
     position: relative;
     z-index: 1;
-    // height: 100vh;
-    // padding-top: 75px;
+
     &.show {
         opacity: 1;
     }
@@ -55,9 +54,7 @@ body {
 
 @include media-breakpoint-up(sm) {
     .content-body {
-        margin-left: 75px;
-        height: 100%;
-        width: 85px;
+        margin-left: 84px;
     }
 }
 

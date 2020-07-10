@@ -1,17 +1,12 @@
 .header {
-    padding: 0px 0px;
+    padding: 0;
     position: fixed;
     top: 0;
-    left: 0px;
+    left: 0;
     right: 0;
     height: 78px;
     z-index: 999;
-    transition: all 0.3s ease-in;
     background: $body-bg;
-
-    &.dashboard {
-        box-shadow: 0 14px 8px -6px $body-bg;
-    }
 
     &.landing_page {
         left: 0;

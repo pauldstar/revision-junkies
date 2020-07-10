@@ -1,23 +1,22 @@
-// dbh: dashboard header
-#searchbar-dbh {
+#dashboard__searchbar {
     height: 58px;
-    font-size: 28px;
+    font-size: 21px;
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
 }
 
-#search-icon-dbh {
+#dashboard__search-icon {
     font-size: 22px;
     border: 0;
     color: $gray-500;
     cursor: text;
 }
 
-#searchbar-dbh::-webkit-input-placeholder,
-#searchbar-dbh::-moz-placeholder,
-#searchbar-dbh:-ms-input-placeholder,
-#searchbar-dbh::-ms-input-placeholder,
-#searchbar-dbh::placeholder {
+#dashboard__searchbar::-webkit-input-placeholder,
+#dashboard__searchbar::-moz-placeholder,
+#dashboard__searchbar:-ms-input-placeholder,
+#dashboard__searchbar::-ms-input-placeholder,
+#dashboard__searchbar::placeholder {
 }
 
 .placeholder-logo {
