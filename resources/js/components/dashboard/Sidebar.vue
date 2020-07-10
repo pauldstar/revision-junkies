@@ -28,21 +28,21 @@
         </div>
 
         <div id="sidebar__mobile" class="d-sm-none">
-                <router-link to="/dashboard/home" v-b-tooltip.hover="{placement: 'bottom'}" title="Home">
-                    <span><i class="la la-igloo"></i></span>
-                </router-link>
-                <router-link to="/dashboard/buy-sell" v-b-tooltip.hover="{placement: 'bottom'}" title="Exchange">
-                    <span><i class="la la-exchange-alt"></i></span>
-                </router-link>
-                <router-link to="/dashboard/create-tip" class="create-tip-button" v-b-tooltip.hover="{placement: 'bottom'}" title="Add Tip">
-                    <span><i class="la la-pencil-alt"></i></span>
-                </router-link>
-                <router-link to="/dashboard/settings" v-b-tooltip.hover="{placement: 'bottom'}" title="Setting">
-                    <span><i class="la la-tools"></i></span>
-                </router-link>
-                <router-link to="/dashboard/accounts" v-b-tooltip.hover="{placement: 'bottom'}" title="Account">
-                    <span><i class="la la-user"></i></span>
-                </router-link>
+            <router-link to="/dashboard/home">
+                <span><i class="la la-igloo"></i></span>
+            </router-link>
+            <router-link to="/dashboard/buy-sell">
+                <span><i class="la la-exchange-alt"></i></span>
+            </router-link>
+            <router-link to="/dashboard/create-tip" class="create-tip-button">
+                <span><i class="la la-pencil-alt"></i></span>
+            </router-link>
+            <router-link to="/dashboard/settings">
+                <span><i class="la la-tools"></i></span>
+            </router-link>
+            <router-link to="/dashboard/accounts">
+                <span><i class="la la-user"></i></span>
+            </router-link>
         </div>
     </nav>
 </template>
@@ -51,6 +51,6 @@
     import CreateTipButton from '@js/components/dashboard/CreateTipButton';
 
     export default {
-        components: {CreateTipButton}
+        components: {CreateTipButton},
     }
 </script>
