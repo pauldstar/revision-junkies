@@ -21,10 +21,10 @@
 </template>
 
 <script>
-    import mainWrapper from '@app/components/MainWrapper.vue';
-    import landingHeader from "@app/components/landing/Header.vue";
-    import landingFooter from '@app/components/landing/Footer.vue';
-    import app from '@app/App.vue';
+    import mainWrapper from '@js/components/MainWrapper.vue';
+    import landingHeader from "@js/components/landing/Header.vue";
+    import landingFooter from '@js/components/landing/Footer.vue';
+    import app from '@js/App.vue';
 
     export default {
         extends: app,

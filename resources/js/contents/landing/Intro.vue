@@ -31,7 +31,7 @@
 </template>
 
 <script>
-    import currencyForm from "@app/components/CurrencyForm.vue";
+    import currencyForm from "@js/components/CurrencyForm.vue";
 
     export default {
         components: {currencyForm},

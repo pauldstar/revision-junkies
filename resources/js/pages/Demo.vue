@@ -11,10 +11,10 @@
 </template>
 
 <script>
-    import mainWrapper from '@app/components/MainWrapper.vue';
-    import demoHeader from "@app/components/demo/Header.vue";
-    import demoFooter from '@app/components/demo/Footer.vue';
-    import app from '@app/App.vue';
+    import mainWrapper from '@js/components/MainWrapper.vue';
+    import demoHeader from "@js/components/demo/Header.vue";
+    import demoFooter from '@js/components/demo/Footer.vue';
+    import app from '@js/App.vue';
 
     export default {
         extends: app,

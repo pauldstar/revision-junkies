@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    import formPage from '@app/components/FormPage.vue';
+    import formPage from '@js/components/FormPage.vue';
 
     export default {
         components: { formPage }

@@ -198,9 +198,9 @@
 </template>
 
 <script>
-    import contentBody from '@app/components/dashboard/ContentBody.vue';
-    import currencyForm from "@app/components/CurrencyForm.vue";
-    import app from '@app/App.vue';
+    import contentBody from '@js/components/dashboard/ContentBody.vue';
+    import currencyForm from "@js/components/CurrencyForm.vue";
+    import app from '@js/App.vue';
 
     export default {
         extends: app,

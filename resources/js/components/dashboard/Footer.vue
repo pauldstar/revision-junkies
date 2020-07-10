@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    import app from '@app/App.vue';
+    import app from '@js/App.vue';
 
     export default {
         extends: app

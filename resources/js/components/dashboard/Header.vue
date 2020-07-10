@@ -11,8 +11,8 @@
 </template>
 
 <script>
-    import Logo from "@app/components/Logo";
-    import SearchBar from "@app/components/dashboard/SearchBar";
+    import Logo from "@js/components/Logo";
+    import SearchBar from "@js/components/dashboard/SearchBar";
 
     export default {
         components: {SearchBar, Logo},

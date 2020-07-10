@@ -48,7 +48,7 @@
 </template>
 
 <script>
-    import CreateTipButton from '@app/components/dashboard/CreateTipButton';
+    import CreateTipButton from '@js/components/dashboard/CreateTipButton';
 
     export default {
         components: {CreateTipButton}

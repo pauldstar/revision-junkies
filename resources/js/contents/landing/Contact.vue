@@ -54,7 +54,7 @@
 </template>
 
 <script>
-    import validateField from '@app/components/ValidateField.vue';
+    import validateField from '@js/components/ValidateField.vue';
     import {required, email} from 'vuelidate/lib/validators';
 
     export default {

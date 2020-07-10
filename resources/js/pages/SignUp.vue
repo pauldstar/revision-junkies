@@ -39,9 +39,9 @@
 </template>
 
 <script>
-    import formPage from '@app/components/FormPage.vue';
+    import formPage from '@js/components/FormPage.vue';
     import {required, email, minLength} from 'vuelidate/lib/validators';
-    import validateField from '@app/components/ValidateField.vue';
+    import validateField from '@js/components/ValidateField.vue';
 
     export default {
         components: {validateField, formPage},

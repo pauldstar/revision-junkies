@@ -379,8 +379,8 @@
 </template>
 
 <script>
-    import app from '@app/App.vue';
-    import validateField from '@app/components/ValidateField.vue';
+    import app from '@js/App.vue';
+    import validateField from '@js/components/ValidateField.vue';
     import {required, email, minLength} from 'vuelidate/lib/validators';
 
     export default {

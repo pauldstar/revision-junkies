@@ -16,7 +16,7 @@
 </template>
 
 <script>
-    import verificationBody from '@app/components/dashboard/VerificationBody.vue';
+    import verificationBody from '@js/components/dashboard/VerificationBody.vue';
 
     export default {
         components: {verificationBody},
