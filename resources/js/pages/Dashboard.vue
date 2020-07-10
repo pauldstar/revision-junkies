@@ -1,7 +1,13 @@
 <template>
     <main-wrapper :is-loading="isLoading">
-        <dashboard-header/>
-        <sidebar/>
+        <transition name="slide-up">
+            <dashboard-header v-if="slideIn"/>
+        </transition>
+
+        <transition name="slide-down">
+            <sidebar v-if="slideIn" />
+        </transition>
+
         <router-view name="dashboardPageTitle"/>
         <router-view/>
         <dashboard-footer/>
@@ -9,15 +15,21 @@
 </template>
 
 <script>
-    import mainWrapper from "@app/components/MainWrapper.vue";
-    import dashboardHeader from "@app/components/dashboard/Header.vue";
-    import sidebar from "@app/components/dashboard/Sidebar.vue";
-    import pageTitle from "@app/components/dashboard/PageTitle.vue";
-    import dashboardFooter from "@app/components/dashboard/Footer.vue";
-    import app from '@app/App.vue';
+    import mainWrapper from "@js/components/MainWrapper.vue";
+    import dashboardHeader from "@js/components/dashboard/Header.vue";
+    import sidebar from "@js/components/dashboard/Sidebar.vue";
+    import pageTitle from "@js/components/dashboard/PageTitle.vue";
+    import dashboardFooter from "@js/components/dashboard/Footer.vue";
+    import slideOut from '@js/mixins/slide-out';
+    import app from '@js/App.vue';
 
     export default {
         extends: app,
+        mixins: [slideOut],
         components: {dashboardHeader, sidebar, mainWrapper, pageTitle, dashboardFooter},
     }
 </script>
+
+<style lang="scss">
+    @import "resources/sass/mixins/slide-out";
+</style>
