@@ -2,7 +2,7 @@
     <div class="input-group input-group-seamless-append">
         <input
             type="text"
-            id="searchbar-dbh"
+            id="dashboard__searchbar"
             class="form-control"
             ref="search"
             v-model="search"
@@ -16,7 +16,7 @@
 
         <div class="input-group-append">
             <div
-                id="search-icon-dbh"
+                id="dashboard__search-icon"
                 class="input-group-text bg-white"
                 @click="focusSearch"
             >

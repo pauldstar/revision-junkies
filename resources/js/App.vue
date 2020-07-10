@@ -16,12 +16,10 @@
 
 <script>
     export default {
-        data() {
-            return {
-                isLoading: true,
-                year: new Date().getFullYear()
-            }
-        },
+        data: _ => ({
+            isLoading: true,
+            year: new Date().getFullYear()
+        }),
 
         mounted() {
             this.isLoading = false;
@@ -50,9 +48,11 @@
         -webkit-appearance: none;
         display: none;
     }
+
     .fade-enter-active, .fade-leave-active {
         transition: opacity 1s;
     }
+
     .fade-enter, .fade-leave-to {
         opacity: 0;
     }
