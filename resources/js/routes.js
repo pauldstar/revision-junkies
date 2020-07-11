@@ -10,6 +10,7 @@ import oneTimePassword2 from './pages/OneTimePassword2';
 import buySell from './contents/dashboard/BuySell';
 import home from './contents/dashboard/Home';
 import dashboardPageTitle from './components/dashboard/PageTitle';
+import editTip from './contents/dashboard/EditTip';
 import addBankAcc from './contents/dashboard/AddBankAcc';
 import accounts from './contents/dashboard/Accounts';
 import history from './contents/dashboard/History';
@@ -66,6 +67,8 @@ export default [
         { path: 'buy-sell', meta: {title: 'Exchange'}, components: {default: buySell, dashboardPageTitle} },
         { path: 'accounts', meta: {title: 'Accounts'}, components: {default: accounts, dashboardPageTitle} },
         { path: 'history', meta: {title: 'History'}, components: {default: history, dashboardPageTitle} },
+        { path: 'create-tip', meta: {title: 'Create Tip'}, component: editTip },
+        { path: 'edit-tip', meta: {title: 'Edit Tip'}, component: editTip },
         { path: 'add-bank-acc', meta: {title: 'Add Bank Account'}, component: addBankAcc },
         { path: 'add-debit-card', meta: {title: 'Add Debit Card'}, component: addDebitCard },
         { path: 'verify-step-1', meta: {title: 'Verify ID'}, component: verifyStep1 },
