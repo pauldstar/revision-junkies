@@ -3,6 +3,7 @@
         class="hex-btn position-relative c-pointer mt-1"
         v-b-tooltip.hover="{placement}"
         title="Add Tip"
+        @click="$router.push('/dashboard/create-tip')"
     >
         <div class="hex hex-1"></div>
         <div class="hex hex-2"></div>
