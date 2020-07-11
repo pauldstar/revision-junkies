@@ -5,20 +5,9 @@
     height: 100vh;
 }
 
-.auth-form {
-    // padding: 30px;
-    // background: $white;
-    // box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
-    // border-radius: 5px;
-    // .btn {
-    //     height: 50px;
-    //     font-weight: 700;
-    // }
-    border: 1px solid $border-color;
-    .page-back {
-        display: inline-block;
-        margin-bottom: 15px;
-    }
+.auth-form .page-back {
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 .verification {

@@ -26,13 +26,13 @@
     .form-control {
         border-radius: 15px;
         min-height   : 50px;
-        border       : 1px solid #423A6F;
-        padding      : 0px 22px;
+        border       : 1px solid $secondary;
+        padding      : 0 22px;
         font-size    : 16px;
         font-weight  : 500;
         color        : #fff;
         transition   : all 0.3s ease-in-out;
-        background   : #423A6F;
+        background   : $secondary;
 
         .select {
             padding: 12px 0;
@@ -76,7 +76,7 @@
         font-size    : 24px;
         padding      : 5px 15px;
         background   : #423A6F;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         color        : $white;
         border-color : #423A6F;
     }

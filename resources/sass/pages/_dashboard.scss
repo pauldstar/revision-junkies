@@ -4,7 +4,7 @@
     background: #423A6F;
     border-radius: 15px;
     margin-bottom: 15px;
-    padding: 0px 20px;
+    padding: 0 20px;
     .widget-stat{
         min-width: 170px;
         padding: 20px 0;
@@ -21,13 +21,13 @@
 .profile_chart {
     &.card {
         .card-header {
-            border: 0px;
-            // padding-bottom: 0px;
+            border: 0;
+            // padding-bottom: 0;
             @include respond('phone-land') {
                 flex-direction: column;
             }
             .duration-option {
-                box-shadow: 0px 36px 48px rgba(31, 66, 135, 0.04);
+                box-shadow: 0 36px 48px rgba(31, 66, 135, 0.04);
                 a {
                     display: inline-block;
                     margin-left: 10px;
@@ -51,7 +51,7 @@
                     //     border-bottom-left-radius: 25px;
                     // }
                     // &:last-child {
-                    //     border: 0px;
+                    //     border: 0;
                     // }
                 }
             }
@@ -68,11 +68,11 @@
                 h3 {
                     font-size: 36px;
                     color: $primary;
-                    margin-bottom: 0px;
+                    margin-bottom: 0;
                     line-height: 43px;
                 }
                 p {
-                    margin-bottom: 0px;
+                    margin-bottom: 0;
                     font-size: 14px;
                     font-weight: 500;
                     color: $headings-color;
@@ -143,7 +143,7 @@
         li {
             padding: 18px;
             align-items: center;
-            border-bottom: 0px solid $border-color;
+            border-bottom: 0 solid $border-color;
             background: #423A6F;
             border-radius: 15px;
             margin-bottom: 15px;
