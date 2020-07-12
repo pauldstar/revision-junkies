@@ -38,7 +38,6 @@ export default {
         },
 
         toggleSlideOut: _.debounce(function () {
-            console.log(this.lastScroll, window.pageYOffset);
             this.scrollingUp = this.lastScroll < window.pageYOffset;
             this.lastScroll = window.pageYOffset;
         }, 200, {leading: true})

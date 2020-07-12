@@ -1,9 +1,9 @@
-.slide-down-enter-active, .slide-down-leave-active,
-.slide-up-enter-active, .slide-up-leave-active {
+.scroll-slide-down-enter-active, .scroll-slide-down-leave-active,
+.scroll-slide-up-enter-active, .scroll-slide-up-leave-active {
     transition: all .2s ease-in;
 }
 
-.slide-down-enter, .slide-down-leave-to {
+.scroll-slide-down-enter, .scroll-slide-down-leave-to {
     -o-transform: translateY(80px);
     -moz-transform: translateY(80px);
     -ms-transform: translateY(80px);
@@ -11,7 +11,7 @@
     transform: translateY(80px);
 }
 
-.slide-up-enter, .slide-up-leave-to {
+.scroll-slide-up-enter, .scroll-slide-up-leave-to {
     -o-transform: translateY(-80px);
     -moz-transform: translateY(-80px);
     -ms-transform: translateY(-80px);
