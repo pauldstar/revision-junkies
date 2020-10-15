@@ -52,12 +52,6 @@ body {
     margin-top: 15px;
 }
 
-@include media-breakpoint-up(sm) {
-    .content-body {
-        margin-left: 84px;
-    }
-}
-
 ul {
     padding: 0;
     margin: 0;
