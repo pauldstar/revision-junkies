@@ -165,3 +165,11 @@
         color: $body-color;
     }
 }
+
+.r-ml-85 {
+    margin-left: 0;
+
+    @include media-breakpoint-up(sm) {
+        margin-left: 85px;
+    }
+}
