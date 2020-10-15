@@ -2,7 +2,7 @@
     <component
         :is="logoWrapper"
         to="/dashboard"
-        class="d-flex logo"
+        class="d-inline-flex logo"
     >
         <template v-if="responsive">
             <span class="reverse-text">Z</span>
