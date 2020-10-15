@@ -1,5 +1,5 @@
 <template>
-    <verification-body>
+    <form-page :logo="false">
         <form class="identity-upload">
             <div class="identity-content">
                 <span class="icon"><i class="fa fa-shield"></i></span>
@@ -13,14 +13,14 @@
                 <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
             </div>
         </form>
-    </verification-body>
+    </form-page>
 </template>
 
 <script>
-    import verificationBody from '@js/components/dashboard/VerificationBody.vue';
+    import formPage from '@js/components/FormPage';
 
     export default {
-        components: {verificationBody},
+        components: {formPage},
 
         mounted() {
             let self = this;

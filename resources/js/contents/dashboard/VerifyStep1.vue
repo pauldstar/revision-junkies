@@ -1,5 +1,5 @@
 <template>
-    <verification-body>
+    <form-page :logo="false">
         <form @submit.prevent="$router.push('/dashboard/verify-step-2')" class="identity-upload">
             <div class="identity-content">
                 <span class="icon"><i class="fa fa-shield"></i></span>
@@ -11,13 +11,13 @@
                 <button type="submit" class="btn btn-success pl-5 pr-5">Upload ID</button>
             </div>
         </form>
-    </verification-body>
+    </form-page>
 </template>
 
 <script>
-    import verificationBody from '@js/components/dashboard/VerificationBody.vue';
+    import formPage from '@js/components/FormPage';
 
     export default {
-        components: {verificationBody}
+        components: {formPage}
     }
 </script>

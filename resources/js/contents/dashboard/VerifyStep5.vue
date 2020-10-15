@@ -1,5 +1,5 @@
 <template>
-    <verification-body>
+    <form-page :logo="false">
         <template #header>
             <h4 class="card-title">Add New Account</h4>
         </template>
@@ -34,13 +34,13 @@
                 </div>
             </div>
         </div>
-    </verification-body>
+    </form-page>
 </template>
 
 <script>
-    import verificationBody from '@js/components/dashboard/VerificationBody.vue';
+    import formPage from '@js/components/FormPage';
 
     export default {
-        components: {verificationBody},
+        components: {formPage},
     }
 </script>
