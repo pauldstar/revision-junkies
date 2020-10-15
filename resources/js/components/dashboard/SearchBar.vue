@@ -10,7 +10,7 @@
 
         <logo
             v-if="!search"
-            class="placeholder-logo"
+            class="position-absolute logo--placeholder"
             :responsive="true"
         />
 

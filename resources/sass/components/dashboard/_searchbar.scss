@@ -11,21 +11,3 @@
     color: $gray-500;
     cursor: text;
 }
-
-#dashboard__searchbar::-webkit-input-placeholder,
-#dashboard__searchbar::-moz-placeholder,
-#dashboard__searchbar:-ms-input-placeholder,
-#dashboard__searchbar::-ms-input-placeholder,
-#dashboard__searchbar::placeholder {
-}
-
-.placeholder-logo {
-    position: absolute;
-    z-index: 1;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 22px;
-    color: $gray-500;
-    font-weight: 900;
-    top: 15px;
-    left: 15px;
-}
