@@ -1,9 +1,9 @@
 <template>
-    <div class="page_title pt-5">
+    <div class="page-title pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-sm-6 col-6">
-                    <div class="page_title-content">
+                    <div class="page-title-content">
                         <p>Last updated: October 21, 2019</p>
                     </div>
                 </div>
