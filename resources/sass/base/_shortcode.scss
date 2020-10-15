@@ -40,7 +40,7 @@
     background: rgba(58, 51, 97, 0.95) center;
 }
 
-.page_title {
+.page-title {
     padding: 15px 0 15px;
     position: relative;
     background: transparent;
@@ -60,12 +60,6 @@
             margin-left: 10px;
             opacity: 1;
         }
-    }
-}
-
-@include media-breakpoint-up(sm) {
-    .page_title {
-        margin-left: 75px;
     }
 }
 
