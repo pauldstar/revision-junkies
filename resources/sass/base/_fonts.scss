@@ -1,6 +1,6 @@
 // Google Font
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&display=swap');
 
 @font-face {
   font-family: 'Biko';
@@ -12,18 +12,4 @@
   url('../fonts/biko/Biko.svg#Biko') format('svg');
   font-weight: normal;
   font-style: normal;
-}
-
-.logo {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 25px;
-  color: $gray-700;
-  font-weight: 900;
-}
-
-.reverse-text {
-  -webkit-transform:rotateY(180deg);
-  -moz-transform:rotateY(180deg);
-  -o-transform:rotateY(180deg);
-  -ms-transform:rotateY(180deg);
 }
